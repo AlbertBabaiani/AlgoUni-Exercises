@@ -354,33 +354,33 @@
 
 // პროექტი 16 - Pizza Party - პიცის წვეულება
 
-function pizzaParty() {
-  let people = parseInt(prompt("How many people?"));
-  let pizzas = parseInt(prompt("How many pizzas do you have?"));
-  let slicesPerPizza = parseInt(prompt("How many slices per pizza?"));
+// function pizzaParty() {
+//   let people = parseInt(prompt("How many people?"));
+//   let pizzas = parseInt(prompt("How many pizzas do you have?"));
+//   let slicesPerPizza = parseInt(prompt("How many slices per pizza?"));
 
-  let totalSlices = pizzas * slicesPerPizza;
-  let slicesPerPerson = Math.floor(totalSlices / people);
-  let leftoverSlices = totalSlices % people;
+//   let totalSlices = pizzas * slicesPerPizza;
+//   let slicesPerPerson = Math.floor(totalSlices / people);
+//   let leftoverSlices = totalSlices % people;
 
-  console.log(
-    `${people} ${people === 1 ? "person" : "people"} with ${pizzas} ${
-      pizzas === 1 ? "pizza" : "pizzas"
-    }`
-  );
-  console.log(
-    `Each person gets ${slicesPerPerson} ${
-      slicesPerPerson === 1 ? "piece" : "pieces"
-    } of pizza.`
-  );
-  console.log(
-    `There ${leftoverSlices === 1 ? "is" : "are"} ${leftoverSlices} leftover ${
-      leftoverSlices === 1 ? "piece" : "pieces"
-    }.`
-  );
-}
+//   console.log(
+//     `${people} ${people === 1 ? "person" : "people"} with ${pizzas} ${
+//       pizzas === 1 ? "pizza" : "pizzas"
+//     }`
+//   );
+//   console.log(
+//     `Each person gets ${slicesPerPerson} ${
+//       slicesPerPerson === 1 ? "piece" : "pieces"
+//     } of pizza.`
+//   );
+//   console.log(
+//     `There ${leftoverSlices === 1 ? "is" : "are"} ${leftoverSlices} leftover ${
+//       leftoverSlices === 1 ? "piece" : "pieces"
+//     }.`
+//   );
+// }
 
-pizzaParty();
+// pizzaParty();
 
 ////////////////////////////////////////////////////////////////////////////////
 
